@@ -1,0 +1,60 @@
+npx create-react-app my-app --template typescript
+2. Create a virtual environment:
+python3 -m venv env
+source env/bin/activate 
+
+3. Activate the virtual environment:
+source env/bin/activate
+
+cd my-app
+npm install apollo-boost @apollo/client @apollo/react-hooks graphql
+npm install @types/graphql
+npm install redux react-redux @types/react-redux
+
+npm install --save-dev jest @testing-library/react @testing-library/jest-dom enzyme enzyme-adapter-react-16
+"scripts": {
+    "test": "jest",
+}
+// src/setupTests.js
+
+
+
+#####################################################################
+
+/// PACKAGES::
+
+    react-beautiful-dnd: This package provides a set of higher-order components that makes it easy to create beautiful and accessible drag-and-drop interfaces.
+
+    react-big-calendar: This package provides a powerful calendar component that supports events, multiple views, and localization.
+
+    react-modal: This package provides a flexible and accessible modal component for React.
+
+    react-treebeard: This package provides a tree component that supports both client and server-side rendering, and it's customizable with a set of props.
+
+    antd or material-ui: These libraries provide a comprehensive set of pre-built UI components that can be easily styled and customized.
+    
+    
+    #####################################################################
+    setup .net 6 & 7 on Ubuntu:
+    
+    Installing with APT can be done with a few commands. Before you install .NET, run the following commands to add the Microsoft package signing key to your list of trusted keys and add the package repository.
+    
+    wget https://packages.microsoft.com/config/ubuntu/22.10/packages-microsoft-prod.deb -O packages-microsoft-prod.deb
+sudo dpkg -i packages-microsoft-prod.deb
+rm packages-microsoft-prod.deb
+
+
+    sudo apt-get update && \
+  sudo apt-get install -y dotnet-sdk-6.0
+  
+  
+  sudo apt install mysql-server
+  
+  sudo systemctl start mysql.service
+  
+  sudo mysql
+  
+  intelliHubUser
+  Test123.
+  
+  To test: systemctl status mysql.service
