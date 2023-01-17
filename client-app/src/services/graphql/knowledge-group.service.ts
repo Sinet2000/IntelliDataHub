@@ -1,3 +1,5 @@
+
+import {CreateKnowledgeGroupResponse, DeleteKnowledgeGroupResponse, UpdateKnowledgeGroupResponse} from "@models/KnowledgeStore/KnowledgeGroup";
 import { client } from "./graphql.service";
 
 export class KnowledgeGroupService {
@@ -68,7 +70,7 @@ export class KnowledgeGroupService {
         try {
             const { data } = await this.graphQLService.mutate(mutation, variables);
             return data.updateKnowledgeGroup;
-        } catch (error) {
+        } catch (error: any) {
             throw new Error(error);
         }
     }
